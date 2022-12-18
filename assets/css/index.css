@@ -1,0 +1,411 @@
+html, body{
+    height: 100%;
+     margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(30, 28, 28);
+    width: auto;
+    height: 70px;
+}
+
+main{
+    background-color: rgb(205, 200, 194);
+    flex-grow: 1;
+}
+
+.logo{
+    height: 70px;
+}
+
+.title{
+    position: absolute;
+    top: -27px;
+    left: 90px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 240, 12);
+}
+
+.menu{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+a{
+    color: rgb(247, 251, 248);
+    text-decoration: none;
+}
+
+/* lien non visité */
+a:link {
+    color: rgb(3, 19, 165);
+  }
+
+  /* lien visité */
+a:visited {
+    color: rgb(36, 7, 199);
+  }
+  
+
+a:hover{
+    color: rgb(4, 155, 29);
+}
+
+  /* lien sélécté */
+  a:active {
+    color: rgb(194, 7, 7);
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin: 30px;
+    margin-top: -225px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li :link{
+    color: white;
+}
+
+li :hover{
+    color: rgb(46, 254, 4);
+    border-radius: 5px;
+}
+
+li :active{
+    color: red;
+}
+
+.textdefilant{
+    background-color: rgb(34, 33, 33);
+    font-style:oblique;
+    color: rgb(33, 249, 26);
+    font-size: larger;
+}
+
+.presentation{
+    display: flex;
+    border: black solid;
+}
+
+.titrepresentation{
+    padding:  48px 18px 4px 22px;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.espacepresentation{
+    background-color: rgb(108, 78, 78);
+    width: 6px;
+
+}
+
+.motpresentation{
+    padding: 1% 3% 1% 1%;
+    position: relative;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+    font-size: larger;
+}
+
+.maisonvente{
+    display: flex;
+    border: black solid;
+}
+.titremaisonvente{
+    padding:  60px 0px 4px 22px;
+    width: 480px;
+    text-align:start;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.espacemaison{
+    background-color: rgb(108, 78, 78);
+    width: 6px;
+}
+.imagemaison1{
+    position: relative;
+    padding: 4%;
+    height: 5cm;
+    width: 5cm;
+}
+
+.textmaison1{
+    position: relative;
+    padding: 8px 2% 1% 1%;
+    font-size: larger;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+}
+
+.maisonlouer{
+    display: flex;
+    border: black solid;
+}
+.titremaisonlouer{
+    padding:  60px 0px 4px 22px;
+    width: 480px;
+    text-align:start;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.imagemaison2{
+    position: relative;
+    padding: 4%;
+    height: 5cm;
+    width: 5cm;
+}
+
+.textmaison2{
+    position: relative;
+    padding: 8px 2% 1% 1%;
+    font-size: larger;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+}
+
+.voiturevente{
+    display: flex;
+    border: black solid;
+}
+.titrevoiturevente{
+    padding:  60px 0px 4px 22px;
+    width: 480px;
+    text-align:start;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.imagevoiture1{
+    position: relative;
+    padding: 4%;
+    height: 5cm;
+    width: 5cm;
+}
+
+.textvoiture1{
+    position: relative;
+    padding: 8px 2% 1% 1%;
+    font-size: larger;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+}
+
+.voiturelouer{
+    display: flex;
+    border: black solid;
+}
+.titrevoiturelouer{
+    padding:  60px 0px 4px 22px;
+    width: 480px;
+    text-align:start;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.imagevoiture2{
+    position: relative;
+    padding: 4%;
+    height: 5cm;
+    width: 5cm;
+}
+
+.textvoiture2{
+    position: relative;
+    padding: 8px 2% 1% 1%;
+    font-size: larger;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+}
+
+.terrainvente{
+    display: flex;
+    border: black solid;
+}
+.titreterrainvente{
+    padding:  60px 0px 4px 22px;
+    width: 480px;
+    text-align:start;
+    position: relative;
+    color: rgb(5, 24, 227);
+    font-style:oblique;
+    font-size:x-large;
+}
+
+.espacemaison{
+    background-color: rgb(108, 78, 78);
+    width: 6px;
+}
+.imageterrain1{
+    position: relative;
+    padding: 4%;
+    height: 5cm;
+    width: 5cm;
+}
+
+.textterrain1{
+    position: relative;
+    padding: 8px 2% 1% 1%;
+    font-size: larger;
+    color: rgb(5, 3, 6);
+    font-style:oblique;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(249, 247, 248);
+}
+
+.logomoov{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 25px;
+}
+
+.lienmoov{
+    position: relative;
+    color: rgb(2, 2, 4);
+    top: -5px;
+    left: 25px;
+}
+
+.logotogocom{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 75px;
+}
+
+.lientogocom{
+    position: relative;
+    color: rgb(2, 2, 4);
+    top: -5px;
+    left: 75px;
+}
+
+.logofacebook{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 130px;
+}
+
+.lienfacebook{
+    position: relative;
+    color: rgb(1, 1, 5);
+    left: 120px;
+    top: -4px;
+}
+
+.logomail{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 350px;
+}
+
+.lienmail{
+    position: relative;
+    color: rgb(1, 1, 3);
+    top: -4px;
+    left: 350px;
+}
+
+.logocommentaire{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 11cm;
+}
+
+.liencommentaire{
+    position: relative;
+    color: rgb(1, 1, 3);
+    top: -4px;
+    left: 11cm;
+}
+
+.logopropos{
+    position: relative;
+    height: 30px;
+    top: 4px;
+    left: 450px;
+}
+
+.lienpropos{
+    position: relative;
+    color: rgb(1, 1, 3);
+    top: -4px;
+    left: 450px;
+}
+
+.copyright{
+    color: rgb(1, 2, 11);
+    font-family:monospace;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        background-color: rgb(199, 44, 44);
+        width: 950px;
+        height: 100px;
+        margin-left:4px;
+        flex-grow: 1;
+
+    }
+
+    body{
+        background-color: rgb(102, 30, 30);
+        width: 950px;
+        height: 100px;
+        margin-left:4px;
+        flex-grow: 1;
+
+    }
+
+    li{
+        margin: 2px;
+        margin-top: -225px;
+        padding: 0px;
+        font-size: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    a{
+        margin: 2px;
+        margin-top: -225px;
+        padding: 0px;
+        font-size: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  }
